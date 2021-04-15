@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+
+        body {
+            font-family: arial, sans-serif;
+            font-size: 12px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            font-size: 18px;
+            width: 100%;
+        }
+
+        td, th {
+            text-align: left;
+            padding: 8px;
+        }
+
+        caption {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        p {
+            padding: 0px;
+            margin: 0px;
+        }
+        .gap-0 {
+            text-align: left;
+            padding: 0px;
+            margin-bottom: 0px;
+        }
+        .gap-2 {
+            text-align: left;
+            padding: 0px;
+            margin-bottom: 2px;
+        }
+        .gap-2i5 {
+            text-align: left;
+            padding: 0px;
+            margin-bottom: 2px;
+            margin-left: 5px
+        }
+        .gap-2i10 {
+            text-align: left;
+            padding: 0px;
+            margin-bottom: 2px;
+            margin-left: 10px
+        }
+        .gap-5 {
+            padding: 0px;
+            margin-bottom: 5px;
+        }
+        .gap-10i5 {
+            text-align: left;
+            padding: 0px;
+            margin-bottom: 10px;
+            margin-left: 5px
+        }
+        .gap-10 {
+            padding: 0px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <p align="center" style="color: darkred; font-size: 18px; margin-bottom: 10px; margin-top: 0px;">Welcome to Scrabble Language Utilities</p>
+
+    <div class="gap-5">The <span style="color: darkred; font-weight: bold;">Files Tab</span> allows you to create a suitable subdirectory with all necessary files for the new language.</div>
+    <div class="gap-2i5"><span style="color: blue">Instructions.html, Final_score.html</span>: Translate all the text</div>
+    <div class="gap-2i5">in these two html files.</div>
+    <div class="gap-2i5"><span style="color: blue">alphabet.py</span>: Details of all the settings are in the comments</div>
+    <div class="gap-2i5">at the top. Translate or change everything that needs changing.</div>
+    <div class="gap-2i5">Change the text <span style="color: darkred">Language</span> on the first line to the name</div>
+    <div class="gap-2i5">of your language - this appears in the initial language choice menu.</div>
+    <div class="gap-2i5">Finally change <span style="color: darkred">develop</span> to <span style="color: darkred">active</span> on the first line to make the language operational.</div>
+    <div class="gap-2i5"><span style="color: blue">scrabble_letters.png</span>: Check all the letter tiles and alter or</div>
+    <div class="gap-2i5">add as required. The positions of any extra graphics need to be added to TILE_POSITIONS in aphabet.py</div>
+    <br /><br />
+    <div class="gap-5">The <span style="color: darkred" ; font-weight: bold;>GADDAG Tab</span> allows you to create a GADDAG data structure from a lexicon.</div>
+    <div class="gap-2i5">At least one of these is required if you wish the computer to be a player although you can have several at different levels.</div>
+    <div class="gap-2i5">The lexicon needs to be a text file with one word per line. Any accents will be stripped from the word. Any words that cannot be</div>
+    <div class="gap-2i5">processed will be printed out together with the line no.</div>
+    <div class="gap-2i5">You will need to specify an already set up language or list any</div>
+    <div class="gap-2i5">multi-character letters. If there are no multi-character letters this section may be left blank.</div>
+    <div class="gap-2i5">It will also create a text file of two letter words if required. This is not essential but can be helpful to the computer player.</div>
+</body>
+</html>
